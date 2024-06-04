@@ -49,7 +49,7 @@ function App() {
           <div className="flex flex-col px-4">
             <h1 className="font-bold text-white">Your Porojects</h1>
             <div className="flex justify-content-start">
-              <button onClick={handleAddProject} className="my-9 px-4 py-2 text-xs md:text-base rounded-md bg-stone-700 text-stone-400 hover:bg-stone-600 hover:text-stone-100 mb-4">+ Add Poroject</button>
+              <button onClick={handleAddProject} className="my-9 px-4 py-2 add-btn md:text-base rounded-md bg-stone-700 text-stone-400 hover:bg-stone-600 hover:text-stone-100 mb-4">+ Add Poroject</button>
 
             </div>
             {data.map((el, index) => {
